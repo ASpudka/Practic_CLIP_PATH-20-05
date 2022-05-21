@@ -1,6 +1,12 @@
 body{
   background-color: #ccc;
 }
+.fomat-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  color:white;
+
+}
 .users-cards{
   text-align: center;
 }
@@ -23,6 +29,24 @@ body{
 .user-card-info{
   margin: auto;
   margin-left: 35px;
+}
+.user-name{
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: black;
+}
+button{
+  border: 2px solid #ccc;
+  border-radius: 10%;
+  margin: 2%;
+}
+button:first-child{
+  background: rgb(228,241,10);
+  background: linear-gradient(90deg, rgba(228,241,10,1) 0%, rgba(237,202,16,1) 0%, rgba(255,0,0,1) 31%);
+}
+button:last-child{
+background: rgb(228,241,10);
+background: linear-gradient(90deg, rgba(228,241,10,1) 0%, rgba(16,237,216,1) 0%, rgba(0,26,255,1) 31%);
 }
 .social-item{
   display: inline-block;
