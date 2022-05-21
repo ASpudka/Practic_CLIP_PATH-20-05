@@ -1,0 +1,23 @@
+body{
+  background-color: #ccc;
+}
+.users-cards{
+  text-align: center;
+}
+.user-card{
+  display: inline-flex;
+  max-width: 540px;
+  min-height: 350px;
+  background-color: white;
+}
+.user-card-avatar{
+  width: 50%;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0,70% 100%, 0% 100%);
+}
+.user-card-info{
+  margin: auto;
+}
+.social-item{
+  display: inline-block;
+}
