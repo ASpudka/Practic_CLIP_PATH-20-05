@@ -4,7 +4,7 @@ body{
 .fomat-text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
-  color:white;
+  color:rgb(255, 255, 255);
 
 }
 .users-cards{
@@ -14,7 +14,7 @@ body{
   display: inline-flex;
   max-width: 540px;
   min-height: 350px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .user-card-avatar{
   width: 50%;
@@ -48,6 +48,31 @@ button:last-child{
 background: rgb(228,241,10);
 background: linear-gradient(90deg, rgba(228,241,10,1) 0%, rgba(16,237,216,1) 0%, rgba(0,26,255,1) 31%);
 }
-.social-item{
+.social{
+  display: inline-flex;
+  min-width: 150px;
+  justify-content: space-around;
+}
+.link{
   display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 5%;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.bag{
+  border: 2px solid red;
+  background-image: url(./../icons/bag-checked.svg);
+}
+.cube{
+  border: 2px solid yellow;
+  background-image: url(./../icons/cube-outline.svg);
+
+}
+.cat{
+  border: 2px solid blue;
+  background-image: url(./../icons/cat.svg);
 }
